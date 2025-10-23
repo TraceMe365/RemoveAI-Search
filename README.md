@@ -1,4 +1,4 @@
-# Append -ai to Google Searches (example extension)
+# Append -ai to Google Searches
 
 What it does
 - Automatically appends ` -ai` to queries on Google domains (e.g. google.com, google.co.uk) when the query doesn't already include `-ai`.

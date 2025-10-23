@@ -1,6 +1,3 @@
-// content.js
-// Appends " -ai" to Google search queries when needed.
-
 (function () {
   const AI_TOKEN = "-ai";
 
