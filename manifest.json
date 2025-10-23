@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Append -ai to Google Searches",
+  "version": "0.1",
+  "description": "Automatically appends ' -ai' to every Google search query.",
+  "host_permissions": [
+    "*://www.google.com/*",
+    "*://www.google.co.uk/*",
+    "*://google.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.google.com/*",
+        "*://www.google.co.uk/*",
+        "*://google.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
